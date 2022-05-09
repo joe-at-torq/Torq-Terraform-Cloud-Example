@@ -12,7 +12,7 @@ provider "azurerm" {
   subscription_id = "00000000-0000-0000-0000-000000000000"
   client_id       = var.client_id
   client_secret   = var.client_secret
-  tenant_id       = var.tenant.id
+  tenant_id       = var.tenant_id
 }
 
 #Deployment Variables
