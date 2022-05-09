@@ -4,7 +4,7 @@ provider "azurerm" {
   features {}
   skip_provider_registration = true
 
-  subscription_id = "00000000-0000-0000-0000-000000000000"
+  subscription_id = var.subscription_id
   client_id       = var.client_id
   client_secret   = var.client_secret
   tenant_id       = var.tenant_id

@@ -12,3 +12,9 @@ variable "tenant_id" {
   type = string
   default  = ""
 }
+
+variable "subscription_id" {
+  type = string
+  default  = ""
+}
+
