@@ -90,7 +90,7 @@ resource "azurerm_virtual_machine" "cgc_windows_client_vm" {
     name          = "windowsclient-osdisk1"
     caching       = "ReadWrite"
     create_option = "FromImage"
-    os_type       = "windows"
+    os_type       = "Windows"
   }
 
   os_profile {
