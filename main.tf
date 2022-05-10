@@ -78,6 +78,7 @@ resource "azurerm_virtual_machine" "cgc_windows_client_vm" {
   resource_group_name   = azurerm_resource_group.client_rg.name
   vm_size               = "Standard_B2ms"
   network_interface_ids = ["${azurerm_network_interface.cgc_windows_client_nic.id}"]
+  delete_data_disks_on_termination = true
 
   storage_image_reference {
     publisher = "MicrosoftWindowsDesktop"
