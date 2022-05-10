@@ -20,7 +20,7 @@ variable "client_side_region" {
 
 #Resouce Group
 resource "azurerm_resource_group" "client_rg" {
-  name     = "Windows_Client_RG"
+  name     = "Torq_Terraform_Cloud"
   location = var.client_side_region
 }
 
