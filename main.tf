@@ -81,8 +81,8 @@ resource "azurerm_virtual_machine" "cgc_windows_client_vm" {
 
   storage_image_reference {
     publisher = "MicrosoftWindowsDesktop"
-    offer     = "Windows-10"
-    sku       = "rs5-pro"
+    offer     = "Windows-11"
+    sku       = "win11-21h2-pro"
     version   = "latest"
   }
 
